@@ -1,0 +1,16 @@
+    header {
+        background-color: aqua;
+        color: rgb(112, 112, 112);
+        padding: 15px 10px 20px 5px;
+        margin: -10px -10px;
+    }
+    
+    html {
+        background-image: url("../css_formating/WhatsApp\ Image\ 2023-04-19\ at\ 18.29.02.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100% 100%;
+        text-align: right;
+        direction: rtl;
+    }

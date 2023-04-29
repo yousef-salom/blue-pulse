@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+
+    <title>ملئ استمارة العضوية</title>
+
+    <meta charset="utf-8">
+
+    <style>
+        html {
+            text-align: right;
+            direction: rtl;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1>استمارة الانتساب للنبض الأزرق</h1>
+
+    <form>
+
+
+        <p>إملأ البيانات الآتية من فضلك</p>
+
+
+        <label>اسم المنتسب مغ الكنية</label>
+
+        <input type="text" placeholder="اكتب اسمك الكامل هنا" minlength="3" maxlength="10" required name="username">
+
+        </br>
+        </br>
+
+
+        <label> البريد الإلكتروني </label>
+
+        <input type="email" placeholder="اكتب عنوان البريد الإلكتروني" required name="email">
+
+        </br>
+        </br>
+        <label>العمر</label>
+
+        <input type="number" placeholder="اكتب عمرك" required name="age">
+
+        </br>
+        </br>
+
+        <label>تاريخ الميلاد</label>
+
+        <input type="date" placeholder="اكتب تاريخ مولدك" required name="date-of-birth">
+
+        </br>
+        </br>
+
+        <label>اختر جنسك</label>
+        </br>
+
+        <div>
+
+            <input id="we" type="radio" value="female" name="gender">
+            <label for="we">أنثى</label>
+
+        </div>
+
+
+
+        <div>
+
+            <input id="qw" type="radio" value="male" name="gender">
+            <label for="qw">ذكر</label>
+
+        </div>
+
+
+        </br>
+
+        <label for="moh">اختر المحافظة التي تقيم فيها</label>
+        </br>
+
+        <input list="state" name="mohafaza" id="moh">
+        <datalist id="state">
+
+                <option value="دمشق">
+                <option value="حمص">
+                <option value="حلب">
+                <option value="اللاذقية">
+                <option value="طرطوس">
+                <option value="الرقة">
+                <option value="دير الزور">
+                <option value="الحسكة">
+                <option value="حماة">
+                <option value="إدلب">
+                <option value="القنيطرة">
+                <option value="درعا">
+                <option value="ريف دمشق">
+
+            </datalist>
+
+        </br>
+        </br>
+
+        <input type="submit" value="أرسل">
+        <input type="reset" value="إعادة تعيين">
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+
+
+
+</html>
